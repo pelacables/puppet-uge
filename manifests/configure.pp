@@ -14,7 +14,7 @@ class uge::configure inherits uge {
   validate_string($uge::uge_admin_user_id)
   validate_string($uge::uge_admin_group_id)
 
-  if ($uge::sge_request != undef) and ($uge::node_type == 'login')  {
+  if ($uge::sge_request != undef) and ($uge::node_type == 'submit')  {
     $ensure_sge_request = 'present'
   }
   else {
