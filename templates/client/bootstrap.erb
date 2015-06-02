@@ -1,0 +1,17 @@
+# Version: <%= version %>
+#
+admin_user              <%= uge_admin_user %>
+default_domain          none
+ignore_fqdn             true
+spooling_method         classic
+spooling_lib            libspoolc
+spooling_params         <%= uge_root %>/<%= uge_cell %>/common;<%= uge_root %>/<%= uge_cell %>/spool/qmaster
+binary_path             <%= uge_root %>/bin
+qmaster_spool_dir       <%= uge_root %>/<%= uge_cell %>/spool/qmaster
+security_mode           none
+listener_threads        2
+worker_threads          4
+reader_threads          2
+scheduler_threads       1
+jvm_threads             0
+lo_threads              0

@@ -1,0 +1,14 @@
+{
+  "name": "abria-uge",
+  "version": "0.1.0",
+  "author": "Arnau Bria",
+  "summary": "Module for install and configure submit/compute nodes in UGE 8.X",
+  "license": "Apache 2.0",
+  "source": "",
+  "project_page": null,
+  "issues_url": null,
+  "dependencies": [
+    {"name":"puppetlabs/stdlib","version_requirement":">= 1.0.0"},
+    {"name":"gini/archive","version_requirement":">= 0.2.1"}
+  ]
+}
